@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -11,6 +10,7 @@
 			margin: 0;
 			font-family: 'Montserrat', sans-serif;
 			background-color: #f2f2f2;
+			color: #333;
 		}
 
 		header {
@@ -21,15 +21,21 @@
 			flex-direction: column;
 			align-items: center;
 			justify-content: center;
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			z-index: 999;
 		}
 
 		h1 {
 			margin: 0;
-			font-size: 48px;
+			font-size: 60px;
 			text-align: center;
 			font-weight: 700;
 			text-transform: uppercase;
 			letter-spacing: 2px;
+			line-height: 1;
 		}
 
 		nav {
@@ -63,7 +69,7 @@
 
 		main {
 			max-width: 800px;
-			margin: 0 auto;
+			margin: 150px auto 50px;
 			padding: 20px;
 			background-color: #fff;
 			box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -76,12 +82,14 @@
 			font-weight: 700;
 			text-transform: uppercase;
 			letter-spacing: 1px;
+			margin-bottom: 30px;
 		}
 
 		p {
 			font-size: 18px;
 			line-height: 1.5;
 			color: #333;
+			margin-bottom: 20px;
 		}
 
 		section {
@@ -93,6 +101,7 @@
 			font-size: 18px;
 			line-height: 1.5;
 			color: #333;
+			margin-bottom: 20px;
 		}
 
 		a {
@@ -111,20 +120,14 @@
 			text-align: center;
 			font-size: 14px;
 			margin-top: 50px;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
 		}
 
 		footer p {
 			margin: 0;
 		}
-	</style>
-</head>
-<body>
-	<header>
-		<h1>Ansuman Mahato</h1>
-		<nav>
-			<ul>
-				<li><a href="#about">About</a></li>
-				<li><a href="#education">Education</a></li>
-				<li><a href="#skills">Skills</a></li>
-				<li><a href="#projects">Projects</a></li>
-				<li><a href="#
+
+		@media
